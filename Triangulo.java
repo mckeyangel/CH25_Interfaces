@@ -1,4 +1,4 @@
-public class Triangulo {
+public class Triangulo implements FigurasGeometricas {
 	private String name;
 	private double base;
 	private double altura;
