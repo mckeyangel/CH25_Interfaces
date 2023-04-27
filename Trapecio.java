@@ -20,10 +20,10 @@ public class Trapecio {
 	}//Constructor
 	
 	public double calcularArea() {
-		return (getBase() * getAltura())/2;	
+		return ( getAltura() * (getBaseMayor() + getBaseMenor()) )/2;	
 	}//calcularArea
 	public double calcularPerimetro() {
-		return (getLado() + getLado() + getLado());
+		return (getLado1() + getLado2() + getLado3() + getLado4());
 	}// calcularPerimetro
 
 	public String getName() {
