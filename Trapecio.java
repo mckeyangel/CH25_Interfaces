@@ -1,5 +1,5 @@
 
-public class Trapecio implements FigurasGeometricas {
+public class Trapecio implements FigurasGeometricas{
 	private String name;
 	private double baseMenor;
 	private double baseMayor;
