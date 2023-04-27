@@ -1,5 +1,5 @@
 
-public class Romboide {
+public class Romboide implements FigurasGeometricas {
 	private String name;
 	private double base;
 	private double altura;

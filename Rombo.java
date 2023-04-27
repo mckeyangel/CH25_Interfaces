@@ -1,5 +1,5 @@
 
-public class Rombo {
+public class Rombo implements FigurasGeometricas {
 	
 	private String name;
 	private double dMenor;
